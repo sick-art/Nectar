@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles', # Ensure a comma ends this line
     'rest_framework', # Add this line
-    'howdy',
     'api',
 ]
 

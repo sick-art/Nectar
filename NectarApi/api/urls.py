@@ -2,10 +2,11 @@
 
 from django.conf.urls import url, include
 from rest_framework.urlpatterns import format_suffix_patterns
-from .views import CreateView
+from .api import ListApi, CardApi
 
 urlpatterns = {
-    url(r'^bucketlists/$', CreateView.as_view(), name="create"),
+    url(r'^lists/$', ListApi.as_view()),
+    url(r'^cards/$', CardApi.as_view()),
 }
 
 urlpatterns = format_suffix_patterns(urlpatterns)
