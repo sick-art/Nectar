@@ -1,0 +1,11 @@
+{
+    "/lisits": {
+        "target": "http://localhost:8000",
+        "secure": false
+    },
+
+    "/cards": {
+        "target": "http://localhost:8000",
+        "secure": false
+    }
+}
